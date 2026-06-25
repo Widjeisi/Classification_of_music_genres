@@ -17,19 +17,17 @@ PROJECT_DIR = Path("/Users/widjeisi/project_music")
 TRACKS_CSV = PROJECT_DIR / "tracks.csv"
 GENRES_CSV = PROJECT_DIR / "genres.csv"
 
-# Папка, где лежит полный FMA audio dataset.
-# Обычно это что-то вроде:
-# /Users/widjeisi/project_music/fma_large
-# /Users/widjeisi/project_music/fma_medium
-# /Users/widjeisi/project_music/fma_full
 AUDIO_DIR = PROJECT_DIR / "/Users/widjeisi/Downloads/fma_large"
 
-# Куда сохранять mel-спектрограммы
 OUTPUT_MEL_DIR = PROJECT_DIR / "mel_spectrograms_6_genres_full"
 
 TARGET_GENRE_NAMES = [
-    "Indie-Rock",
-    "Industrial"
+    "Jazz",
+    "Classical",
+    "Hip-Hop",
+    "Metal",
+    "Country",
+    "Dubstep",
 ]
 
 # Параметры mel
