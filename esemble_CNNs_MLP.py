@@ -1148,15 +1148,6 @@ def main():
     print("test_min_recall:", test_metrics["min_recall"])
     print("test_objective:", test_metrics["objective"])
 
-    print()
-    print("FINAL REFERENCE:")
-    print("final_accuracy_percent: 63.75")
-    print("final_objective: 0.628125")
-    print("final_min_recall: 0.60")
-    print("final_Hip-Hop: 0.61")
-    print("final_Classical: 0.60")
-    print("final_Dubstep: 0.68")
-
 
 if __name__ == "__main__":
     main()
